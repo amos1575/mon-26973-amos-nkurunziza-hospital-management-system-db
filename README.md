@@ -1,10 +1,7 @@
 # mon-26973-amos-nkurunziza-hospital-management-system-db
-This system will be implemented in mid-sized to large hospital facilities where manual record-keeping has become inefficient and error-prone. The HMS will serve as the central data management system connecting all hospital departments.
-# Hospital Management System - Database Implementation
-
 ## Student Information
-- Student ID: 27336
-- Name: Your Migisha Rwihimba Charite
+- Student ID: 26973
+- Name: Your NKURUNZIZA Amos
 - Concentration: Software Engineering
 
 ## Phase 1: Problem Statement
@@ -181,23 +178,23 @@ The database design adheres to the Third Normal Form (3NF):
 
 ```sql
 -- Create Pluggable Database
-CREATE PLUGGABLE DATABASE tue_27336_rwihimbacharite_hospitalMS_db
-ADMIN USER charite IDENTIFIED BY Rwihimba2
+CREATE PLUGGABLE DATABASE mon_26973_amosnkurunziza_hospitalMS_db
+ADMIN USER charite IDENTIFIED BY amos2
 FILE_NAME_CONVERT = ('/u01/app/oracle/oradata/ORCL/pdbseed/',
-                     '/u01/app/oracle/oradata/ORCL/tue_27336_rwihimbacharite_hospitalMS_db/');
+                     '/u01/app/oracle/oradata/ORCL/mon_26973_amosnkurunziza_hospitalMS_db/');
 
 ![PDBE CREATION](<Screenshot 2025-05-20 110304.png>)
 -- Open the PDB
-ALTER PLUGGABLE DATABASE tue_27336_rwihimbacharite_hospitalMS_db OPEN;
+ALTER PLUGGABLE DATABASE mon_26973_amosnkurunziza_hospitalMS_db OPEN;
 
 -- Switch to the PDB
-ALTER SESSION SET CONTAINER = tue_27336_rwihimbacharite_hospitalMS_db;
+ALTER SESSION SET CONTAINER = mon_26973_amosnkurunziza_hospitalMS_db;
 
 -- Grant necessary privileges to the admin user
 GRANT CREATE SESSION, CREATE TABLE, CREATE PROCEDURE, CREATE SEQUENCE, 
       CREATE TRIGGER, CREATE VIEW, CREATE MATERIALIZED VIEW, 
       CREATE DATABASE LINK, CREATE SYNONYM, CREATE TYPE 
-      TO charite;
+      TO amos;
 ```
 
 ### Oracle Enterprise Manager (OEM) Configuration
