@@ -1,7 +1,7 @@
 # mon-26973-amos-nkurunziza-hospital-management-system-db
 ## Student Information
 - Student ID: 26973
-- Name: Your NKURUNZIZA Amos
+- Name: NKURUNZIZA Amos
 - Concentration: Software Engineering
 
 ## Phase 1: Problem Statement
