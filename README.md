@@ -11,7 +11,7 @@
 
 ---
 
-## Problem Statement
+## Phase 1: Problem Statement
 
 ### Problem Definition
 The Hospital Management System (HMS) is designed to streamline and automate healthcare operations of a hospital facility. It provides a comprehensive database solution to manage patient information, physician details, appointments scheduling, medical records, prescription tracking, and inventory management.
@@ -37,7 +37,7 @@ This system will be implemented in mid-sized to large hospital facilities where 
 - Minimize errors in patient care and medication administration
 
 ---
-
+## Phase 2: Business Process Modeling
 ## Solution Overview
 
 ### Key Objectives
@@ -61,10 +61,11 @@ This system will be implemented in mid-sized to large hospital facilities where 
 - Role-based access control
 - Advanced analytics with window functions
 - Business intelligence dashboard planning
+<img width="1536" height="1024" alt="BPMN" src="https://github.com/user-attachments/assets/656cc99f-e1fa-4e12-a85b-d67826f3f00b" />
 
 ---
 
-## Database Design
+## Phase 3: Logical Model Design
 
 ### Entity-Relationship Model
 
@@ -192,6 +193,8 @@ The database design adheres to the Third Normal Form (3NF):
 - SQL Developer for modeling
 - Oracle Enterprise Manager for monitoring
 
+## Phase 4: Database Creation and Naming
+
 ### Database Creation
 ```sql
 -- Create Pluggable Database
@@ -207,7 +210,20 @@ ALTER PLUGGABLE DATABASE mon_26973_amosnkurunziza_hospitalMS_db OPEN;
 
 -- Switch to the PDB
 ALTER SESSION SET CONTAINER = mon_26973_amosnkurunziza_hospitalMS_db;
+
 ```
+### Oracle Enterprise Manager (OEM) Configuration
+<img width="1885" height="865" alt="OEM DASHBOARD" src="https://github.com/user-attachments/assets/5832fc1e-da3f-4f8b-b562-e96bb12e7308" />
+The Oracle Enterprise Manager has been configured to monitor the newly created database. It provides comprehensive monitoring capabilities including:
+- Performance monitoring
+- Storage usage
+- User session tracking
+- Alert notifications
+- Backup status
+
+
+## Phase 5: Table Implementation and Data Insertion
+
 
 ### Table Creation
 All tables were created with proper constraints, primary keys, foreign keys, and indexes for optimal performance.
