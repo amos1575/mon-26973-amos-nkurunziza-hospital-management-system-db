@@ -68,8 +68,8 @@ This system will be implemented in mid-sized to large hospital facilities where 
 
 ### Entity-Relationship Model
 
-(<img width="1536" height="1024" alt="ER DIAGRAM" src="https://github.com/user-attachments/assets/16eb426d-b655-4d13-87e3-a893e5f0becc" />
-)
+<img width="1536" height="1024" alt="ER DIAGRAM" src="https://github.com/user-attachments/assets/16eb426d-b655-4d13-87e3-a893e5f0becc" />
+
 
 ### Entities and Attributes
 
