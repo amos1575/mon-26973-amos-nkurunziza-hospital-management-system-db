@@ -1,4 +1,4 @@
-# Hospital Management System Database
+# Hospital Management System 
 ## PL/SQL Capstone Project
 
 ### Student Information
@@ -67,7 +67,8 @@ This system will be implemented in mid-sized to large hospital facilities where 
 ## Database Design
 
 ### Entity-Relationship Model
-![Hospital Management System ER Diagram](documentation/images/hospital_er_diagram.png)
+![Hospital Management System ER Diagram](<img width="1536" height="1024" alt="ER DIAGRAM" src="https://github.com/user-attachments/assets/16eb426d-b655-4d13-87e3-a893e5f0becc" />
+)
 
 ### Entities and Attributes
 
